@@ -1,0 +1,157 @@
+body{
+    background-image: url('img/bg2.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color: #000305;
+    text-align: left;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 80%;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #cf5c3f;
+}
+
+a:hover, a:active{
+    background-color: #cf5c3f;
+    color: #ffffff;
+}
+
+.pageHeader img{
+    width: 7%;
+    height: auto;
+    margin: 2% auto;
+    display: block;
+}
+
+.pageNavigation{
+    background-color: #666666;
+    height: 40;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.pageNavigation ul{
+    list-style: none;
+    margin: auto;
+    overflow: hidden;
+}
+
+.pageNavigation ul li{
+    display: inline;
+}
+
+.pageNavigation a:link, .pageNavigation a:visited{
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.pageNavigation a:hover, .pageNavigation a:active,
+.pageNavigation .active a:link, .pageNavigation .active a:visited{
+    background-color: #cf5c3f;
+    text-shadow: none;
+}
+
+.pageNavigation ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.pageMainContent {
+    background-color: #ffffff;
+    width: 60%;
+    margin-top: 2%;
+    padding: 3% 5%;
+    line-height: 25px;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.pageMainContent article, .pageSidebar article {
+    text-align: justify;
+}
+
+.post-info {
+    font-style: italic;
+    color: #f99999;
+    font-size: 90%;
+}
+
+.pageSidebar {
+    background-color: #ffb3b3;
+    width: 21%;
+    margin: 2% 0 2% 3%;
+    padding: 3% 3%;
+    float: right;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.pageFooter {
+    background-color: #666666;
+    width: 100%;
+    height: 40px;
+    margin: 2% 0;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.pageFooter p {
+    width: 100%;
+    margin: 10px auto;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+
+    .pageNavigation {
+        height: 160;
+    }
+
+    .pageNavigation ul {
+        padding-left: 0;
+    }
+
+    .pageNavigation ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pageNavigation a:link, .pageNavigation a:visited {
+        padding: 10px 25px;
+        height: 20px;
+        display: block;
+    }
+
+    .pageSidebar {
+        visibility: hidden;
+    }
+    
+        .pageMainContent {
+        width: 90%;
+    }
+}
+
